@@ -13,12 +13,13 @@
       href="https://fonts.googleapis.com/css2?family=Merriweather&family=Montserrat&family=Sacramento&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   </head>
   <body>
     <div class="top-container">
       <img class="top-cloud" src="images/whitecloud.png" alt="cloud-img" />
-      <h1>I'm Danny.</h1>
-      <h2>a Software Developer.</h2>
+      <h1 data-aos="fade-up">I'm Danny.</h1>
+      <h2 data-aos="fade-up">a Software Developer.</h2>
       <img class="bottom-cloud" src="images/whitecloud.png" alt="cloud-img" />
       <img
         class="mountain-img"
@@ -32,9 +33,10 @@
           class="profile-img"
           src="images/DANNYBUIPFP.png"
           alt="Danny's Profile Picture"
+          data-aos="fade-up"
         />
-        <h2>Hello.</h2>
-        <p class="my-bio">
+        <h2 data-aos="fade-up">Hello.</h2>
+        <p class="my-bio" data-aos="fade-up">
           I'm a Fullstack developer who currently specializes in web3
           development. Right now I am learning the Rust programming language,
           Web Development, and Solana Development.
@@ -42,33 +44,44 @@
       </div>
       <hr />
       <div class="skills">
-        <h2>My Skills.</h2>
+        <h2 data-aos="fade-up">My Skills.</h2>
         <div class="skill-row">
           <img
             class="software-img"
             src="images/software.png"
             alt="software-icon"
+            data-aos="fade-up"
           />
-          <h3>Fullstack Engineering</h3>
-          <p>
+          <h3 data-aos="fade-up">Fullstack Engineering</h3>
+          <p data-aos="fade-up">
             Lorem ipsum dolor sit amet, quis in duis, iaculis id felis.
             Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit
             nam, lectus ante, ut lorem eros.
           </p>
         </div>
         <div class="skill-row">
-          <img class="design-img" src="images/design.png" alt="design-icon" />
-          <h3>Design Development</h3>
-          <p>
+          <img
+            class="design-img"
+            src="images/design.png"
+            alt="design-icon"
+            data-aos="fade-up"
+          />
+          <h3 data-aos="fade-up">Design Development</h3>
+          <p data-aos="fade-up">
             Lorem ipsum dolor sit amet, mauris sed consectetuer. Etiam et eu,
             bibendum interdum, lacus quis mauris. Curabitur wisi, quisque vel
             eu, rutrum nam.
           </p>
         </div>
         <div class="skill-row">
-          <img class="comm-img" src="images/feedback.png" alt="comm-icon" />
-          <h3>Communication & Management</h3>
-          <p>
+          <img
+            class="comm-img"
+            src="images/feedback.png"
+            alt="comm-icon"
+            data-aos="fade-up"
+          />
+          <h3 data-aos="fade-up">Communication & Management</h3>
+          <p data-aos="fade-up">
             Lorem ipsum dolor sit amet, quis in duis, iaculis id felis.
             Consectetuer vestibulum, nunc urna lectus, erat ligula. Hendrerit
             nam, lectus ante, ut lorem eros.
@@ -80,8 +93,8 @@
 
     <div class="middle2-container">
       <div class="technologies">
-        <h2 class="tech-h1">Technologies.</h2>
-        <div class="tech-icons">
+        <h2 class="tech-h1" data-aos="fade-up">Technologies.</h2>
+        <div class="tech-icons" data-aos="fade-up">
           <img class="" src="images/python.png" alt="" />
           <img class="" src="images/java.png" alt="" />
           <img class="" src="images/c.png" alt="" />
@@ -99,13 +112,15 @@
       </div>
       <hr />
       <div class="contact-me">
-        <h2>Get In Touch</h2>
-        <h3>For inquires, or just to chat!</h3>
-        <p>
+        <h2 data-aos="fade-up">Get In Touch</h2>
+        <h3 data-aos="fade-up">For inquires, or just to chat!</h3>
+        <p data-aos="fade-up">
           I'm current searching for intership positions! These include
           fullstack, backend and frontend positions.
         </p>
-        <a class="btn" href="mailto:name@email.com">CONTACT ME</a>
+        <a class="btn" href="mailto:name@email.com" data-aos="fade-up"
+          >CONTACT ME</a
+        >
       </div>
     </div>
 
@@ -119,5 +134,12 @@
       <a class="footer-link" href="https://github.com/Exiledz5155">Github</a>
       <p>© Danny Bui.</p>
     </div>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+        duration: 1000,
+        once: true,
+      });
+    </script>
   </body>
 </html>
