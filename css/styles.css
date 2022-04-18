@@ -1,0 +1,159 @@
+/* font-family: 'Merriweather', serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Sacramento', cursive; */
+/*Scaling sizes are passed down, so em and % is additive use rem to ignore this rule*/
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: "Merriweather", serif;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  border-color: rgb(185, 185, 185);
+  border-width: 8px;
+  width: 5%;
+  padding-bottom: 100px;
+}
+
+h1 {
+  margin-top: 50px auto 0 auto;
+  font-family: "Sacramento", cursive;
+  font-size: 5.625rem;
+  color: #548ca8;
+  /* line-height: 2; */
+}
+
+h2 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 2.5rem;
+  color: #548ca8;
+  font-weight: normal;
+}
+
+h3 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 1.5rem;
+  color: #476072;
+}
+
+a {
+  color: #476072;
+}
+
+.top-container {
+  position: relative;
+  background-color: #eeeeee;
+  padding-top: 100px;
+}
+
+.middle-container {
+  padding-top: 100px;
+}
+
+.middle2-container {
+}
+
+.bottom-container {
+  background-color: #548ca8;
+  padding: 50px;
+}
+
+.footer-link {
+  padding: 0 20px 0 20px;
+  color: #334257;
+  text-decoration: none;
+  font-family: "Montserrat", sans-serif;
+  font-size: 20px;
+}
+
+.bottom-container > p {
+  padding-top: 20px;
+  color: #eeeeee;
+  font-size: 16px;
+}
+
+.technologies {
+  padding-bottom: 100px;
+}
+
+.tech-h1 {
+  padding-bottom: 50px;
+}
+
+.contact-me {
+  padding-bottom: 100px;
+}
+
+.contact-me > p {
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+}
+
+.tech-icons {
+  width: 60%;
+  margin: auto;
+}
+
+.tech-icons > img {
+  width: 10%;
+}
+
+.my-bio {
+  width: 40%;
+  margin: auto;
+  line-height: 2;
+  padding-bottom: 100px;
+}
+
+.mountain-img {
+  margin-bottom: -118px;
+  width: 75%;
+}
+
+.top-cloud {
+  position: absolute;
+  width: 15%;
+  right: 300px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  width: 15%;
+  left: 250px;
+  bottom: 600px;
+}
+
+.profile-img {
+  width: 15%;
+}
+
+.skill-row {
+  margin: 100px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+  padding: 5px 0 5px 0;
+}
+
+.software-img {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
+
+.design-img {
+  float: right;
+  width: 25%;
+  margin-left: 30px;
+}
+
+.comm-img {
+  float: left;
+  width: 25%;
+  margin-right: 30px;
+}
